@@ -1,0 +1,17 @@
+2026-01-20 08:35:59.577 [main] INFO  com.cts.mmt.base.BaseTest - ========== Test Suite Started ==========
+2026-01-20 08:35:59.870 [main] INFO  com.cts.mmt.utils.ConfigReader - Configuration file loaded successfully from: src/test/resources/config.properties
+2026-01-20 08:35:59.870 [main] INFO  com.cts.mmt.utils.ExtentManager - Extent Report initialized at: test-output/reports/TestReport_2026-01-20_08-35-59.html
+2026-01-20 08:35:59.870 [main] INFO  com.cts.mmt.base.BaseTest - Extent Reports initialized
+2026-01-20 08:35:59.870 [main] INFO  com.cts.mmt.base.BaseTest - Initializing single WebDriver for browser: chrome
+2026-01-20 08:36:07.714 [main] INFO  com.cts.mmt.base.BaseTest - WebDriver initialized successfully - Single browser window for all tests
+2026-01-20 08:36:09.052 [main] INFO  com.cts.mmt.base.BaseTest - Navigated to: https://www.makemytrip.com/
+2026-01-20 08:36:09.448 [main] INFO  com.cts.mmt.pages.HomePage - HomePage initialized
+2026-01-20 08:36:09.578 [main] INFO  com.cts.mmt.base.BaseTest - Step 1: Navigating to MakeMyTrip website
+2026-01-20 08:36:16.006 [main] INFO  com.cts.mmt.base.BaseTest - Navigated to: https://www.makemytrip.com/
+2026-01-20 08:36:16.008 [main] INFO  com.cts.mmt.base.BaseTest - Step 2: Verifying home page is displayed
+2026-01-20 08:36:16.692 [main] INFO  com.cts.mmt.pages.HomePage - Page title: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday
+2026-01-20 08:36:16.718 [main] INFO  com.cts.mmt.base.BaseTest - PASS: Home page displayed successfully
+2026-01-20 08:36:16.719 [main] INFO  com.cts.mmt.base.BaseTest - Step 3: Closing popup if present
+2026-01-20 08:36:17.898 [main] INFO  com.cts.mmt.pages.HomePage - Popup closed successfully
+2026-01-20 08:36:17.898 [main] INFO  com.cts.mmt.base.BaseTest - PASS: Popup handled
+2026-01-20 08:36:17.900 [main] INFO  com.cts.mmt.base.BaseTest - Step 4: Clicking on Cabs tab

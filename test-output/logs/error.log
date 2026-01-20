@@ -1,0 +1,325 @@
+2026-01-19 13:35:24.209 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to enter To city: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //input[@placeholder='To' or contains(@placeholder,'To')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-01-19 13:35:24.209 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to enter To city
+2026-01-19 13:35:24.242 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 13:36:56.007 [main] ERROR com.cts.mmt.pages.HomePage - Failed to navigate to Gift Cards: java.lang.reflect.InvocationTargetException
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b0be0c6712d570b1f3dc7694dac940a7, actions {actions=[org.openqa.selenium.interactions.Sequence@49580ca8]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55516}, goog:processID: 28512, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55516/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0be0c6712d570b1f3dc7694dac940a7
+2026-01-19 13:36:56.007 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Could not navigate to Gift Cards
+2026-01-19 13:37:18.413 [main] ERROR com.cts.mmt.pages.HomePage - Failed to navigate to Gift Cards: java.lang.reflect.InvocationTargetException
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c0971c9f6eb04df42d960fc7a0d0fea, actions {actions=[org.openqa.selenium.interactions.Sequence@586cc15d]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53553}, goog:processID: 468, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53553/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c0971c9f6eb04df42d960fc7a0d0fea
+2026-01-19 13:37:18.413 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Could not navigate to Gift Cards
+2026-01-19 13:37:58.032 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: timeout: Timed out receiving message from renderer: 29.055
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94635c704e7ab87aef386440ef037a55, get {url=https://www.makemytrip.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49165}, goog:processID: 14216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49165/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 94635c704e7ab87aef386440ef037a55
+2026-01-19 13:38:43.266 [main] ERROR com.cts.mmt.pages.HotelsPage - Failed to extract adult person numbers: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [496d91afdad4b448818ce2f6989f2dbc, findElements [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49969}, goog:processID: 22916, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49969/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 496d91afdad4b448818ce2f6989f2dbc
+2026-01-19 13:39:33.787 [main] ERROR com.cts.mmt.pages.HotelsPage - Failed to extract adult person numbers: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6577cd87569d4547de86c10a54964e2c, findElements [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65346}, goog:processID: 25860, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65346/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6577cd87569d4547de86c10a54964e2c
+2026-01-19 13:40:01.652 [main] ERROR com.cts.mmt.pages.HomePage - Home page verification failed: Expected condition failed: waiting for title to contain "MakeMyTrip". Current title: "" (tried for 20 second(s) with 500 milliseconds interval)
+2026-01-19 13:40:01.681 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testValidLogin
+2026-01-19 13:40:01.685 [main] ERROR com.cts.mmt.utils.ScreenshotUtil - Failed to capture screenshot as Base64: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a57519f7b5d36e4318eab15aa025748e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53307}, goog:processID: 27756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53307/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a57519f7b5d36e4318eab15aa025748e
+2026-01-19 13:45:51.913 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to enter From city: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e6ba7f29a95c56e29e2cd2f767f16b1, isElementDisplayed {id=f.151585CC5ABAB793605772BE6DF35EE1.d.F5D5A91AC8B0020F6B79E88EB9813496.e.98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57245}, goog:processID: 11412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57245/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3e6ba7f29a95c56e29e2cd2f767f16b1)] -> xpath: //input[@placeholder='From' or contains(@placeholder,'From')]]
+Session ID: 3e6ba7f29a95c56e29e2cd2f767f16b1
+2026-01-19 13:45:51.915 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to enter From city
+2026-01-19 13:45:51.926 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 13:45:53.706 [main] ERROR com.cts.mmt.utils.ScreenshotUtil - Failed to capture screenshot as Base64: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e6ba7f29a95c56e29e2cd2f767f16b1, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57245}, goog:processID: 11412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57245/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e6ba7f29a95c56e29e2cd2f767f16b1
+2026-01-19 13:47:35.522 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to enter To city: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="top-banner"]/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/div/div/div/input (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61450}, goog:processID: 27604, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61450/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51bf88cc95ff5cb3c23a7a362c95eff9
+2026-01-19 13:47:35.524 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to enter To city
+2026-01-19 13:47:35.535 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 13:50:53.487 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to click search: element click intercepted: Element <a data-cy="OutstationOneWayWidget_64" href="" class="primaryBtn font24 latoBold widget...Btn">Search</a> is not clickable at point (632, 157). Other element would receive the click: <ul role="listbox" class="react-autosuggest__suggestions-list">...</ul>
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3eb1d5eb5ea3173c49ff0aec09592a3c, clickElement {id=f.0263B8D76103ABD2075A79A29F3EB144.d.0856256EA9C3F8781ADB34E4BA15758E.e.185}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51560}, goog:processID: 30044, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51560/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3eb1d5eb5ea3173c49ff0aec09592a3c)] -> xpath: //*[@id="top-banner"]/div[2]/div/div/div[2]/p/a]
+Session ID: 3eb1d5eb5ea3173c49ff0aec09592a3c
+2026-01-19 13:50:53.487 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to click search
+2026-01-19 13:50:53.501 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 14:07:05.112 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to enter To city: invalid element state
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e6ea8b806f61a0ed9f55ef3dafcb3bb, clearElement {id=f.D8927C30C3A21BCA41B6F6436EC879E6.d.58A104505B2881EF245655BADFF4439A.e.192}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57550}, goog:processID: 29636, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57550/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7e6ea8b806f61a0ed9f55ef3dafcb3bb)] -> xpath: //input[contains(@id,'toCity') or contains(@name,'toCity')]]
+Session ID: 7e6ea8b806f61a0ed9f55ef3dafcb3bb
+2026-01-19 14:07:05.114 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to enter To city
+2026-01-19 14:07:05.129 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 14:11:30.976 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to enter To city: Could not find To city input field
+2026-01-19 14:11:31.005 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to enter To city
+2026-01-19 14:11:31.083 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 14:20:03.356 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to enter To city: Could not find To city input field
+2026-01-19 14:20:03.356 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to enter To city
+2026-01-19 14:20:03.364 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 14:20:03.374 [main] ERROR com.cts.mmt.utils.ScreenshotUtil - Failed to capture screenshot as Base64: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63a5fa8c52a8e91e8585fbbc85d52a9e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59580}, goog:processID: 23236, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59580/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63a5fa8c52a8e91e8585fbbc85d52a9e
+2026-01-19 14:24:06.913 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to enter From city: stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28cdb0360a6e9e3c24f5b47854ca5181, getElementText {id=f.D97C0E4CFBCFB7226081AC3151483B74.d.A3992CFD17FA09687C030784BC33FCB2.e.132}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52816}, goog:processID: 26408, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52816/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28cdb0360a6e9e3c24f5b47854ca5181)] -> xpath: //ul[@role='listbox']//li | //ul[contains(@class,'autoSuggest')]//li]
+Session ID: 28cdb0360a6e9e3c24f5b47854ca5181
+2026-01-19 14:24:06.922 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to enter From city
+2026-01-19 14:24:06.998 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 14:40:10.687 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to click search: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e8ffa67c816105d2ba1e68c98a0e5a4, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52665}, goog:processID: 29308, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52665/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e8ffa67c816105d2ba1e68c98a0e5a4
+2026-01-19 14:40:10.688 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to click search
+2026-01-19 14:40:10.700 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 14:40:10.713 [main] ERROR com.cts.mmt.utils.ScreenshotUtil - Failed to capture screenshot as Base64: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e8ffa67c816105d2ba1e68c98a0e5a4, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52665}, goog:processID: 29308, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52665/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e8ffa67c816105d2ba1e68c98a0e5a4
+2026-01-19 14:41:45.505 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to click search: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce520bf40d515f6c2366e16361acfded, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61673}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61673/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce520bf40d515f6c2366e16361acfded
+2026-01-19 14:41:45.506 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to click search
+2026-01-19 14:41:45.516 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 14:41:45.533 [main] ERROR com.cts.mmt.utils.ScreenshotUtil - Failed to capture screenshot as Base64: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce520bf40d515f6c2366e16361acfded, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61673}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61673/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce520bf40d515f6c2366e16361acfded
+2026-01-19 14:46:20.602 [main] ERROR com.cts.mmt.pages.CabsPage - Could not get cab prices: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b1b91e15e09327768362dfcc796a58d, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62610}, goog:processID: 9976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62610/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b1b91e15e09327768362dfcc796a58d
+2026-01-19 14:47:04.752 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fcf622be548723a82f9bdc8e1c600255, get [url]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61920}, goog:processID: 31632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61920/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fcf622be548723a82f9bdc8e1c600255
+2026-01-19 14:47:04.757 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testNavigationFromCabsToHome
+2026-01-19 14:47:04.773 [main] ERROR com.cts.mmt.utils.ScreenshotUtil - Failed to capture screenshot as Base64: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fcf622be548723a82f9bdc8e1c600255, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61920}, goog:processID: 31632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61920/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fcf622be548723a82f9bdc8e1c600255
+2026-01-19 14:47:52.767 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to click search: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc8918dcdbc6f9d103e4484d83f54cef, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60049}, goog:processID: 14652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60049/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc8918dcdbc6f9d103e4484d83f54cef
+2026-01-19 14:47:52.770 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to click search
+2026-01-19 14:47:52.807 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 14:47:52.826 [main] ERROR com.cts.mmt.utils.ScreenshotUtil - Failed to capture screenshot as Base64: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc8918dcdbc6f9d103e4484d83f54cef, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60049}, goog:processID: 14652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60049/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc8918dcdbc6f9d103e4484d83f54cef
+2026-01-19 14:49:07.174 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to click search: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [302ede0fb9023ea663baca4187764857, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49751}, goog:processID: 23012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49751/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 302ede0fb9023ea663baca4187764857
+2026-01-19 14:49:07.177 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to click search
+2026-01-19 14:49:07.205 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 14:49:07.226 [main] ERROR com.cts.mmt.utils.ScreenshotUtil - Failed to capture screenshot as Base64: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [302ede0fb9023ea663baca4187764857, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49751}, goog:processID: 23012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49751/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 302ede0fb9023ea663baca4187764857
+2026-01-19 15:54:48.349 [main] ERROR com.cts.mmt.pages.CabsPage - Could not get cab prices: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8e5d062d8e5b4be674c7cf8c80e97d82, executeScript [args, script]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60589}, goog:processID: 25344, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60589/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e5d062d8e5b4be674c7cf8c80e97d82
+2026-01-19 15:56:58.400 [main] ERROR com.cts.mmt.pages.CabsPage - Could not get cab prices: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e510a476aeeb65ab4af32816c46712e7, executeScript [args, script]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61492}, goog:processID: 31408, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61492/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e510a476aeeb65ab4af32816c46712e7
+2026-01-19 16:01:01.147 [main] ERROR com.cts.mmt.pages.HomePage - Failed to navigate to Gift Cards: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'dropdown') or contains(@class,'menu')]//a (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49177}, goog:processID: 27040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49177/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37ebcdbaf7f56973458b89250fabbab3
+2026-01-19 16:01:01.150 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Could not navigate to Gift Cards
+2026-01-19 16:17:06.325 [main] ERROR com.cts.mmt.pages.HotelsPage - Failed to extract adult person numbers: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [233ebe215d7f8e7b0d750a5e4dc022e9, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56386}, goog:processID: 32440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56386/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 233ebe215d7f8e7b0d750a5e4dc022e9
+2026-01-19 16:24:21.168 [main] ERROR com.cts.mmt.pages.GiftCardsPage - Failed to capture screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3d1a37de28edf9a2a1dd4c5c7e8b6207, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55452}, goog:processID: 26984, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55452/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d1a37de28edf9a2a1dd4c5c7e8b6207
+2026-01-19 16:28:18.363 [main] ERROR com.cts.mmt.pages.CabsPage - Could not get cab prices: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f951535f35e0fb5c49d71dbad627199b, executeScript [script, args]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53914}, goog:processID: 18604, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53914/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f951535f35e0fb5c49d71dbad627199b
+2026-01-19 16:32:17.074 [main] ERROR com.cts.mmt.pages.GiftCardsPage - Failed to capture screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [048abf3237c4d3cb153b588a654771f6, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58978}, goog:processID: 10512, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58978/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 048abf3237c4d3cb153b588a654771f6
+2026-01-19 20:05:56.347 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to enter To city: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e28e6689987dabe1f5178d3ea3a40354, findElement {value=//*[@id="top-banner"]/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/div/div/div/input, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65487}, goog:processID: 29520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65487/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e28e6689987dabe1f5178d3ea3a40354
+2026-01-19 20:05:56.349 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to enter To city
+2026-01-19 20:05:56.360 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 20:06:02.019 [main] ERROR com.cts.mmt.utils.ScreenshotUtil - Failed to capture screenshot as Base64: invalid session id
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e28e6689987dabe1f5178d3ea3a40354, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65487}, goog:processID: 29520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65487/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e28e6689987dabe1f5178d3ea3a40354
+2026-01-19 20:06:05.617 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9f77388134f9dfb8b511ddd2f31428a, get {url=https://www.makemytrip.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62416}, goog:processID: 24552, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62416/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9f77388134f9dfb8b511ddd2f31428a
+2026-01-19 20:22:20.873 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to enter To city: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="top-banner"]/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/div/div/div/input (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58259}, goog:processID: 34768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58259/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc976f1677baf8a767e96dcf95bc4940
+2026-01-19 20:22:20.875 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to enter To city
+2026-01-19 20:22:20.922 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 20:23:01.992 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: timeout: Timed out receiving message from renderer: 23.722
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3852379618925e1e85ae1fcb54f20dec, get {url=https://www.makemytrip.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60110}, goog:processID: 5924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60110/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3852379618925e1e85ae1fcb54f20dec
+2026-01-19 20:31:16.672 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to enter To city: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="top-banner"]/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/div/div/div/input (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54809}, goog:processID: 24272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54809/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f728cf11b85d60f0e736bab3aac63da
+2026-01-19 20:31:16.676 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to enter To city
+2026-01-19 20:31:16.710 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 20:34:43.035 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to enter To city: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="top-banner"]/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/div/div/div/input (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59672}, goog:processID: 17924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59672/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f13e0eb798f0a87220be344f4003c178
+2026-01-19 20:34:43.035 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to enter To city
+2026-01-19 20:34:43.077 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali
+2026-01-19 21:38:46.339 [main] ERROR com.cts.mmt.pages.CabsPage - Failed to enter To city: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="top-banner"]/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/div/div/div/input (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457504\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57540}, goog:processID: 25572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57540/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc781a002442073a0b04112e187567c9
+2026-01-19 21:38:46.345 [main] ERROR com.cts.mmt.base.BaseTest - FAIL: Test failed: Failed to enter To city
+2026-01-19 21:38:46.405 [main] ERROR com.cts.mmt.base.BaseTest - Test FAILED: testBookOutstationCabDelhiToManali

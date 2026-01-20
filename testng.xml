@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+    MakeMyTrip Automation Framework - TestNG Suite Configuration
+    
+    This suite runs 3 main test cases:
+    1. Cab Booking Test - Outstation cab from Delhi to Manali with SUV
+    2. Gift Card Test - Invalid email validation and error capture
+    3. Hotel Page Test - Adult person numbers extraction
+    
+    Author: CTS Automation Team
+    Version: 1.0
+-->
+
+<suite name="MakeMyTrip Automation Suite" 
+       parallel="none" 
+       thread-count="1"
+       verbose="2">
+    
+    <!-- Suite-level parameters -->
+    <parameter name="browser" value="chrome"/>
+    <parameter name="environment" value="QA"/>
+    
+    <!-- Test 1: Cab Booking - Delhi to Manali SUV -->
+    <test name="Cab Booking Test">
+        <classes>
+            <class name="com.cts.mmt.tests.CabBookingTest">
+                <methods>
+                    <include name="testBookOutstationCabDelhiToManali"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <!-- Test 2: Gift Card - Invalid Email Validation -->
+    <test name="Gift Card Test">
+        <classes>
+            <class name="com.cts.mmt.tests.GiftCardTest">
+                <methods>
+                    <include name="testGiftCardWithInvalidEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <!-- Test 3: Hotel Page - Adult Numbers Extraction -->
+    <test name="Hotel Page Test">
+        <classes>
+            <class name="com.cts.mmt.tests.HotelPageTest">
+                <methods>
+                    <include name="testExtractAdultPersonNumbers"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+</suite>
