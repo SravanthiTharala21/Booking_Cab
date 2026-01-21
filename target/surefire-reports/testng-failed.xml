@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [MakeMyTrip Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" name="Gift Card Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.cts.mmt.tests.GiftCardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testGiftCardWithInvalidEmail"/>
+          <include name="initPageObjects"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.cts.mmt.tests.GiftCardTest -->
+    </classes>
+  </test> <!-- Gift Card Tests(failed) -->
+  <test thread-count="1" name="Hotel Page Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.cts.mmt.tests.HotelPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="initPageObjects"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="testExtractAdultPersonNumbers"/>
+        </methods>
+      </class> <!-- com.cts.mmt.tests.HotelPageTest -->
+    </classes>
+  </test> <!-- Hotel Page Tests(failed) -->
+</suite> <!-- Failed suite [MakeMyTrip Automation Suite] -->

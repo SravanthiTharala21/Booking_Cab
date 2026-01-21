@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-20T11:55:49 IST" name="MakeMyTrip Automation Suite" finished-at="2026-01-20T11:57:13 IST" duration-ms="83569">
+    <groups>
+    </groups>
+    <test started-at="2026-01-20T11:55:49 IST" name="Cab Booking Tests" finished-at="2026-01-20T11:56:31 IST" duration-ms="42300">
+      <class name="com.cts.mmt.tests.CabBookingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cts.mmt.tests.CabBookingTest@4c5474f5]" started-at="2026-01-20T11:55:49 IST" name="setUp" finished-at="2026-01-20T11:55:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.cts.mmt.tests.CabBookingTest@4c5474f5]" started-at="2026-01-20T11:55:49 IST" name="initPageObjects" finished-at="2026-01-20T11:55:49 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="testBookOutstationCabDelhiToManali()[pri:1, instance:com.cts.mmt.tests.CabBookingTest@4c5474f5]" started-at="2026-01-20T11:55:49 IST" name="testBookOutstationCabDelhiToManali" description="Book one way outstation cab from Delhi to Manali and display lowest charges" finished-at="2026-01-20T11:56:31 IST" duration-ms="42131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookOutstationCabDelhiToManali -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cts.mmt.tests.CabBookingTest@4c5474f5]" started-at="2026-01-20T11:56:31 IST" name="tearDown" finished-at="2026-01-20T11:56:31 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBookOutstationCabDelhiToManali status=SUCCESS method=CabBookingTest.testBookOutstationCabDelhiToManali()[pri:1, instance:com.cts.mmt.tests.CabBookingTest@4c5474f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cts.mmt.tests.CabBookingTest -->
+    </test> <!-- Cab Booking Tests -->
+    <test started-at="2026-01-20T11:56:32 IST" name="Gift Card Tests" finished-at="2026-01-20T11:56:50 IST" duration-ms="18298">
+      <class name="com.cts.mmt.tests.GiftCardTest">
+        <test-method signature="testGiftCardWithInvalidEmail()[pri:1, instance:com.cts.mmt.tests.GiftCardTest@19553973]" started-at="2026-01-20T11:56:32 IST" name="testGiftCardWithInvalidEmail" description="Fill gift card form with invalid email and capture error message" finished-at="2026-01-20T11:56:50 IST" duration-ms="18292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGiftCardWithInvalidEmail -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cts.mmt.tests.GiftCardTest@19553973]" started-at="2026-01-20T11:56:32 IST" name="setUp" finished-at="2026-01-20T11:56:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.cts.mmt.tests.GiftCardTest@19553973]" started-at="2026-01-20T11:56:32 IST" name="initPageObjects" finished-at="2026-01-20T11:56:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cts.mmt.tests.GiftCardTest@19553973]" started-at="2026-01-20T11:56:50 IST" name="tearDown" finished-at="2026-01-20T11:56:50 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGiftCardWithInvalidEmail status=SUCCESS method=GiftCardTest.testGiftCardWithInvalidEmail()[pri:1, instance:com.cts.mmt.tests.GiftCardTest@19553973] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cts.mmt.tests.GiftCardTest -->
+    </test> <!-- Gift Card Tests -->
+    <test started-at="2026-01-20T11:56:50 IST" name="Hotel Page Tests" finished-at="2026-01-20T11:57:13 IST" duration-ms="22884">
+      <class name="com.cts.mmt.tests.HotelPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.cts.mmt.tests.HotelPageTest@5a85c92]" started-at="2026-01-20T11:55:43 IST" name="beforeSuite" finished-at="2026-01-20T11:55:49 IST" duration-ms="6639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cts.mmt.tests.HotelPageTest@5a85c92]" started-at="2026-01-20T11:56:50 IST" name="setUp" finished-at="2026-01-20T11:56:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.cts.mmt.tests.HotelPageTest@5a85c92]" started-at="2026-01-20T11:56:50 IST" name="initPageObjects" finished-at="2026-01-20T11:56:50 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="testExtractAdultPersonNumbers()[pri:1, instance:com.cts.mmt.tests.HotelPageTest@5a85c92]" started-at="2026-01-20T11:56:50 IST" name="testExtractAdultPersonNumbers" description="Extract adult person numbers from hotel booking and store in List" finished-at="2026-01-20T11:57:13 IST" duration-ms="22865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractAdultPersonNumbers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cts.mmt.tests.HotelPageTest@5a85c92]" started-at="2026-01-20T11:57:13 IST" name="tearDown" finished-at="2026-01-20T11:57:13 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExtractAdultPersonNumbers status=SUCCESS method=HotelPageTest.testExtractAdultPersonNumbers()[pri:1, instance:com.cts.mmt.tests.HotelPageTest@5a85c92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.cts.mmt.tests.HotelPageTest@5a85c92]" started-at="2026-01-20T11:57:13 IST" name="afterSuite" finished-at="2026-01-20T11:57:21 IST" duration-ms="7785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.cts.mmt.tests.HotelPageTest -->
+    </test> <!-- Hotel Page Tests -->
+  </suite> <!-- MakeMyTrip Automation Suite -->
+</testng-results>

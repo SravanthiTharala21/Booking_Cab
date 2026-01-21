@@ -71,15 +71,7 @@ public class LoginPage {
      * @param username Username or email
      */
     public void enterUsername(String username) {
-        try {
-            WebElement field = wait.until(ExpectedConditions.elementToBeClickable(usernameField));
-            field.clear();
-            field.sendKeys(username);
-            logger.info("Entered username: " + username);
-        } catch (Exception e) {
-            logger.error("Failed to enter username: " + e.getMessage());
-            throw new RuntimeException("Could not enter username");
-        }
+       
     }
 
     /**
@@ -87,29 +79,13 @@ public class LoginPage {
      * @param password Password
      */
     public void enterPassword(String password) {
-        try {
-            WebElement field = wait.until(ExpectedConditions.elementToBeClickable(passwordField));
-            field.clear();
-            field.sendKeys(password);
-            logger.info("Entered password");
-        } catch (Exception e) {
-            logger.error("Failed to enter password: " + e.getMessage());
-            throw new RuntimeException("Could not enter password");
-        }
     }
 
     /**
      * Click login button
      */
     public void clickLoginButton() {
-        try {
-            WebElement button = wait.until(ExpectedConditions.elementToBeClickable(loginButton));
-            js.executeScript("arguments[0].click();", button);
-            logger.info("Clicked Login button");
-        } catch (Exception e) {
-            logger.error("Failed to click login button: " + e.getMessage());
-            throw new RuntimeException("Could not click login button");
-        }
+        
     }
 
     /**
@@ -130,21 +106,9 @@ public class LoginPage {
      * Click on Login link to open login modal
      */
     public void clickLoginLink() {
-        try {
-            // Close popup if present
-            try {
-                WebElement popup = wait.until(ExpectedConditions.elementToBeClickable(closePopupButton));
-                js.executeScript("arguments[0].click();", popup);
-            } catch (Exception e) {
-                // No popup
-            }
+       
 
-            WebElement link = wait.until(ExpectedConditions.elementToBeClickable(loginLink));
-            js.executeScript("arguments[0].click();", link);
-            logger.info("Clicked on Login link");
-        } catch (Exception e) {
-            logger.error("Failed to click login link: " + e.getMessage());
-        }
+         
     }
 
     /**
@@ -152,15 +116,7 @@ public class LoginPage {
      * @return Error message
      */
     public String getErrorMessage() {
-        try {
-            WebElement error = wait.until(ExpectedConditions.visibilityOf(errorMessage));
-            String message = error.getText();
-            logger.info("Error message: " + message);
-            return message;
-        } catch (Exception e) {
-            logger.warn("No error message found");
-            return "";
-        }
+        
     }
 
     /**
@@ -168,11 +124,7 @@ public class LoginPage {
      * @return true if error message is displayed
      */
     public boolean isErrorMessageDisplayed() {
-        try {
-            return errorMessage.isDisplayed();
-        } catch (Exception e) {
-            return false;
-        }
+      
     }
 
     /**
@@ -180,10 +132,5 @@ public class LoginPage {
      * @return true if login page is displayed
      */
     public boolean isLoginPageDisplayed() {
-        try {
-            return usernameField.isDisplayed() || passwordField.isDisplayed();
-        } catch (Exception e) {
-            return false;
-        }
-    }
+        
 }

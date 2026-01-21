@@ -85,25 +85,14 @@ public class HomePage {
      * @param driver WebDriver instance
      */
     public HomePage(WebDriver driver) {
-        this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(ConfigReader.getInstance().getExplicitWait()));
-        this.js = (JavascriptExecutor) driver;
-        this.actions = new Actions(driver);
-        PageFactory.initElements(driver, this);
-        logger.info("HomePage initialized");
+        
     }
 
     /**
      * Close the popup if it appears on page load
      */
     public void closePopupIfPresent() {
-        try {
-            WebElement popup = wait.until(ExpectedConditions.elementToBeClickable(closePopupButton));
-            js.executeScript("arguments[0].click();", popup);
-            logger.info("Popup closed successfully");
-        } catch (Exception e) {
-            logger.info("No popup appeared or popup already closed");
-        }
+        
     }
 
     /**
@@ -111,15 +100,7 @@ public class HomePage {
      * @return true if home page is displayed
      */
     public boolean isHomePageDisplayed() {
-        try {
-            wait.until(ExpectedConditions.titleContains("MakeMyTrip"));
-            String title = driver.getTitle();
-            logger.info("Page title: " + title);
-            return title.toLowerCase().contains("makemytrip");
-        } catch (Exception e) {
-            logger.error("Home page verification failed: " + e.getMessage());
-            return false;
-        }
+       
     }
 
     /**
@@ -127,25 +108,7 @@ public class HomePage {
      * @return CabsPage instance
      */
     public CabsPage clickCabsTab() {
-        try {
-            // Try direct XPath first
-            WebElement cabTab = wait.until(ExpectedConditions.elementToBeClickable(
-                    By.xpath("//*[@id=\"header-container\"]/div[2]/div/div/nav/ul/li[7]/span/a/span[1]/span")));
-            cabTab.click();
-        } catch (Exception e) {
-            // Fallback to generic locator
-            try {
-                WebElement cabTab = wait.until(ExpectedConditions.elementToBeClickable(cabsTab));
-                js.executeScript("arguments[0].click();", cabTab);
-            } catch (Exception e2) {
-                // Another fallback
-                WebElement cabTab = wait.until(ExpectedConditions.elementToBeClickable(
-                        By.xpath("//span[contains(text(),'Cabs')]")));
-                js.executeScript("arguments[0].click();", cabTab);
-            }
-        }
-        logger.info("Clicked on Cabs tab");
-        return new CabsPage(driver);
+       
     }
 
     /**
@@ -153,65 +116,21 @@ public class HomePage {
      * @return HotelsPage instance
      */
     public HotelsPage clickHotelsTab() {
-        try {
-            // Scroll to top first
-            js.executeScript("window.scrollTo(0, 0);");
-            WebElement hotelElement = wait.until(ExpectedConditions.elementToBeClickable(
-                    By.xpath("//*[@id=\"header-container\"]/div/div/div/nav/ul/li[2]/span/a/span[1]/span")));
-            wait.until(ExpectedConditions.elementToBeClickable(hotelElement));
-            js.executeScript("arguments[0].click();", hotelElement);
-        } catch (Exception e) {
-            // Fallback
-            WebElement hotelElement = wait.until(ExpectedConditions.elementToBeClickable(hotelsTab));
-            js.executeScript("arguments[0].click();", hotelElement);
-        }
-        logger.info("Clicked on Hotels tab");
-        return new HotelsPage(driver);
+       
     }
-
     /**
      * Navigate to Gift Cards through More menu using exact locators from Main.java
      * @return GiftCardsPage instance
      */
     public GiftCardsPage navigateToGiftCards() {
-        try {
-            // Step 1: Locate the element to hover (More menu)
-            WebElement hoverElement = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                    By.xpath("/html/body/div[1]/div/div/div/nav/ul/li[11]/span/span[1]")));
-            // Step 2: Perform mouse hover
-            actions.moveToElement(hoverElement).perform();
-            // Step 3: After hover, wait for the dropdown option to appear
-            WebElement optionToClick = wait.until(ExpectedConditions.elementToBeClickable(
-                    By.xpath("/html/body/div[1]/div/div/div/nav/ul/li[11]/div/a[2]")));
-            // Step 4: Click the option
-            optionToClick.click();
-            logger.info("Navigated to Gift Cards page through menu");
-            
-            // Wait for page to load
-            wait.until(d -> ((JavascriptExecutor) d).executeScript("return document.readyState").equals("complete"));
-            
-        } catch (Exception e) {
-            // Fallback: Direct navigation to Gift Cards URL
-            driver.get("https://www.makemytrip.com/gift-cards/");
-            logger.info("Navigated to Gift Cards via direct URL");
-            wait.until(d -> ((JavascriptExecutor) d).executeScript("return document.readyState").equals("complete"));
-        }
-        return new GiftCardsPage(driver);
+        
     }
 
     /**
      * Click on MakeMyTrip logo to go to home page
      */
     public void clickLogo() {
-        try {
-            js.executeScript("window.scrollTo(0, 0);");
-            WebElement logo = wait.until(ExpectedConditions.elementToBeClickable(mmtLogo));
-            js.executeScript("arguments[0].click();", logo);
-            logger.info("Clicked on MMT logo");
-        } catch (Exception e) {
-            driver.navigate().to(ConfigReader.getInstance().getUrl());
-            logger.info("Navigated to home page via URL");
-        }
+        
     }
 
     /**

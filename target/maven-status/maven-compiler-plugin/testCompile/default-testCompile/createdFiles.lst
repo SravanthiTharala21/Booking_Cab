@@ -1,0 +1,6 @@
+com\cts\mmt\tests\CabBookingTest.class
+com\cts\mmt\tests\GiftCardTest.class
+com\cts\mmt\tests\LoginTest.class
+com\cts\mmt\tests\HotelPageTest.class
+log4j2.xml
+config.properties
