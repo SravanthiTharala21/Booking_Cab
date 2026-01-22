@@ -31,32 +31,11 @@ public class LoginPage {
     // ==================== Locators ====================
 
     // Login/Signup button on header
-    @FindBy(xpath = "//li[contains(@class,'login') or contains(@class,'myAccount')]//a | //span[contains(text(),'Login')]")
-    private WebElement loginLink;
-
-    // Username/Email field
-    @FindBy(xpath = "//input[@type='email' or @type='text'][contains(@placeholder,'Email') or contains(@name,'username')]")
-    private WebElement usernameField;
-
-    // Password field
-    @FindBy(xpath = "//input[@type='password']")
-    private WebElement passwordField;
-
-    // Login button
-    @FindBy(xpath = "//button[contains(text(),'Login') or contains(text(),'Sign In') or @type='submit']")
-    private WebElement loginButton;
-
-    // Error message
-    @FindBy(xpath = "//span[contains(@class,'error') or contains(@class,'invalid')] | //p[contains(@class,'error')]")
-    private WebElement errorMessage;
-
-    // Close popup button
-    @FindBy(css = "span.commonModal__close")
-    private WebElement closePopupButton;
+   
 
     /**
      * Constructor - Initialize page elements using PageFactory
-     * @param driver WebDriver instance
+     *
      */
     public LoginPage(WebDriver driver) {
         this.driver = driver;
