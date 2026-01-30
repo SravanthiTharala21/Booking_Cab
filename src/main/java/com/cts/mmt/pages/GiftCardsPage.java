@@ -70,7 +70,7 @@ public class GiftCardsPage {
      * Scroll to gift card details section
      */
     public void scrollToGiftCardSection() {
-        
+     //   
     }
 
     /**
